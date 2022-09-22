@@ -15,3 +15,5 @@ const Nav = styled.nav`
   margin-bottom: 1rem;
   padding: 1rem;
 `;
+
+export default Navbar;
