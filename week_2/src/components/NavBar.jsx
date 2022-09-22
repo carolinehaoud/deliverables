@@ -8,3 +8,10 @@ const navbar = () => {
     </Nav>
   )
 }
+
+const Nav = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 1rem;
+`;
