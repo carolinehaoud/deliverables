@@ -6,6 +6,16 @@ const SubmitButton= styled.button`
   font-weight: bold;
 `;
 
+
+const Form = styled.form`
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    background-color: #60B3FB;
+    color: white;
+`;
+
+
 const InputForm = () => {
     return (
         <Form>
