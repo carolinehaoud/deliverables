@@ -17,4 +17,19 @@ const Row = styled.div`
     }
 `;
 
+const Source = (props) => {
+    return (
+        <>
+            <Row>
+                <span>{props.number}:</span>
+                <span>{props.name}</span>
+                <span>{props.email}</span>
+                <DeleteButton color="red">Delete</DeleteButton>
+            </Row>
+            
+            <hr></hr>
+        </>
+    )
+};
+
 export default Source;
